@@ -235,6 +235,24 @@ button.btn.btn-success:active {
   hr {
     unicode-bidi: isolate-override;
   }
+.text-success {
+  color: #21CC3D;
+}
+.text-danger {
+  color:red;
+}
+.text-warning {
+  color:orange;
+}
+.text-primary {
+  color:#3681e2;
+}
+.text-dark {
+  color:black;!important
+}
+.text-light {
+  color:white;!important
+}
 /* End fonts and text */
 /* Links */
 a {
