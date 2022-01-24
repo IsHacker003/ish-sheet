@@ -301,11 +301,11 @@ button.btn.btn-primary:active {
 .text-light {
   color:white;!important
 }
-textarea,input {
+textarea,input,select {
   border-color:gray;
   border-radius:5px;
 }
-textarea,input:active {
+textarea,input,select:active {
   border-color:blue;
   transition:0.5s;
   border-radius:5px;
