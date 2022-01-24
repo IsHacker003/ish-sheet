@@ -301,6 +301,15 @@ button.btn.btn-primary:active {
 .text-light {
   color:white;!important
 }
+textarea,input {
+  border-color:gray;
+  border-radius:5px;
+}
+textarea,input:active {
+  border-color:blue;
+  transition:0.5s;
+  border-radius:5px;
+}
 /* End fonts and text */
 /* Links */
 a {
