@@ -25,11 +25,20 @@
   </ul>
     </nav>
     <br><br><br><br>
-    <center><h1>Welcome!</h1><br><section id="about"><p>ISH SHEET is a bootstrap alternative. More reliable, more powerful. Start Using it now:</p></section><br><p>Current CDN:<br><textarea style="width: 280px; height: 136px;"><!-- CSS !--><link rel="stylesheet" href="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/css/ishsheet.min.css">
-   <!-- JS !--> <script src="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/js/ishsheet.min.js"></script></textarea></p>
+    <center><h1>Welcome!</h1><br><section id="about"><p>ISH SHEET is a bootstrap alternative. More reliable, more powerful. Start Using it now:</p></section>
+      <br><select id="cdnselect"><option>HTML</option><option>NPM</option></select><p>Current CDN:<br><div id="cdn"><textarea style="width: 280px; height: 136px;"><!-- CSS !--><link rel="stylesheet" href="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/css/ishsheet.min.css">
+   <!-- JS !--> <script src="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/js/ishsheet.min.js"></script></textarea></div></p>
     <br><p>File Issues, Get the full Source Code On github!<button class="btn btn-success" onclick="window.open('https://github.com/ishayu-c/ish-sheet/', '_blank')">Ish Sheet on Github ></button></p>
     </center><br><br><br><br>
     <h1>Download the compiled CSS and JS</h1>
     <br><p>This doesn't include any documentation, source code, any optional JavaScript dependencies.</p><br><button class="btn btn-success" onclick="window.location='/ishsheet-1.1.0-dist.zip'">Download Now ></button><p>For an example of the styles and functions, <a href="/bootstrap/1.1.0">click here</a></p>
+    <script>
+     if (document.getElementById("cdnselect").value == "HTML") {
+       document.getElementById("cdn").innerHTML = '<textarea style="width: 280px; height: 136px;"><!-- CSS !--><link rel="stylesheet" href="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/css/ishsheet.min.css"><!-- JS !--> <script src="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/js/ishsheet.min.js">&#60;/script&#62;</textarea>';
+     }
+    else if (document.getElementById("cdnselect").value == "NPM") {
+      document.getElementById("cdn").innerHTML = "<p class='text-danger'>Coming Soon</p>";
+    }
+    </script>
   </body>
 </html>
