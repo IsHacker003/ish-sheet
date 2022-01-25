@@ -4,4 +4,4 @@
   <p>More reliable, more powerful</p>
   </div>
 
-<p>ISH sheet is a <a href="https://github.com/twbs/bootstrap" style="color:#27CC6E;">bootstrap</a> alternative, created by Ishayu Roy (me)!</p><a href="https://ish-sheet.ishacker.repl.co">Visit Website</a>
+<p>ISH sheet is a <a href="https://github.com/twbs/bootstrap" style="margin-right:20px;">bootstrap</a> alternative, created by Ishayu Roy (me)!</p><a href="https://ish-sheet.ishacker.repl.co">Visit Website</a><a href="https://opencollective.com/ish-sheet" display="inline">Sponsor Project</a>
