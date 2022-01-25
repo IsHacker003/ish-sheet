@@ -265,6 +265,9 @@ button.btn.btn-primary:active {
   p,h1,h2,h3,h4,h5,h6,a,b,label {
     font-family: bsfont,'Helvetica Neue';
   }
+.sans-serif {
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";!important
+}
 
     p {
       font-size:20px;
