@@ -1,0 +1,21 @@
+.content-of {
+  width:100%;
+  background-color:white;
+}
+.for-bootstrap {
+  background-color:gray;
+  width:50%;
+  float:left;
+}
+.for-ish-sheet {
+  background-color:#1cf3cc;
+  float:right;
+  width:50%;
+}
+span.wpcc-message {
+  font-family:bsfont, 'Helvetica Neue';
+}
+.wpcc-container {
+  float:left;!important;
+  width:40%;
+}
