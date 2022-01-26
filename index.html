@@ -32,8 +32,8 @@
     </nav>
     <br><br><br><br>
     <center><h1>Welcome!</h1><br><section id="about"><p>ISH SHEET is a bootstrap alternative. More reliable, more powerful. Start Using it now:</p></section>
-      <br><input type="radio" id="html" checked="true" onclick="selectHtml()"><p style="display:inline; margin-right:40px;" onclick="selectHtml()">html</p><input type="radio" id="npm" onclick="selectNpm()"><p style="display:inline;" onclick="selectNpm()">npm</p><p>Current CDN:<br><div id="cdn"><textarea style="width: 280px; height: 136px;"><!-- CSS !--><link rel="stylesheet" href="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/css/ishsheet.min.css">
-   <!-- JS !--> <script src="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/js/ishsheet.min.js"></script></textarea></div></p>
+      <br><input type="radio" id="html" checked="true" onclick="selectHtml()"><p style="display:inline; margin-right:40px;" onclick="selectHtml()">html</p><input type="radio" id="npm" onclick="selectNpm()"><p style="display:inline;" onclick="selectNpm()">npm</p><p>Current CDN:<br><div id="cdn"><textarea style="width: 280px; height: 136px;" id="cdntext"><!-- CSS !--><link rel="stylesheet" href="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/css/ishsheet.min.css">
+   <!-- JS !--> <script src="https://ish-sheet.ishacker.repl.co/bootstrap/1.1.0/js/ishsheet.min.js"></script></textarea></div><img src="https://img.icons8.com/office/30/000000/copy-2.png" title="copy cdn to clipboard" style="cursor:pointer; display:inline; position:absolute;" onclick="copyCdn()" draggable="false"></p>
     <br><p>File Issues, Get the full Source Code On github!<button class="btn btn-success" onclick="window.open('https://github.com/ishayu-c/ish-sheet/', '_blank')">Ish Sheet on Github ></button></p>
     </center><br><br><br><br>
     <h1>Download the compiled CSS and JS</h1>
@@ -47,6 +47,13 @@
      }
       function selectNpm() {
         document.getElementById("cdn").innerHTML = "<p class='text-danger'>Coming Soon</p>";
+      }
+      function copyCdn(cdntext) {
+        cdntext=document.getElementById("cdntext");
+         cdntext.select();
+  cdntext.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(cdntext.value);
+        window.alert("copied to clipboard")
       }
     </script>
   </body>
