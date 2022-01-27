@@ -51,6 +51,7 @@
       function copyCdn(cdntext) {
         cdntext=document.getElementById("cdntext");
          cdntext.select();
+        cdntext.click();
   cdntext.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(cdntext.value);
         window.alert("copied to clipboard")
