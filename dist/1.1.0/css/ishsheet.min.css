@@ -313,6 +313,9 @@ textarea,input,select:active {
   transition:0.5s;
   border-radius:5px;
 }
+body {
+   margin:0px;
+}
 /* End fonts and text */
 /* Links */
 a {
