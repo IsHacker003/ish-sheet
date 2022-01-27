@@ -332,3 +332,8 @@ a:visited {
   color:#0f2f41;
 }
 /* End Links */
+/* Tooltips */ 
+.tooltip {
+  background-color:black; opacity:70%; border-radius:5px; width:10%; font-size:13px; border-bottom:1px dotted black; display:inline-block; position:relative;color:white;
+}
+/* End Tooltips */
