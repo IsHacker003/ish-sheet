@@ -19,3 +19,14 @@ span.wpcc-message {
   float:left;!important;
   width:40%;
 }
+.footer-links {
+  transition:0.5s;
+  opacity:50%;
+  cursor:pointer;
+}
+.footer-links:hover {
+  opacity:100%;
+}
+.footer-links:active {
+  opacity:70%;
+}
