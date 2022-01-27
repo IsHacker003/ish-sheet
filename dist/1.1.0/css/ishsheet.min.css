@@ -26,9 +26,9 @@ closebutton {
   z-index:1;
   display:inline;
   margin-right:20%;
+  transition:0.1s;
 }
 closebutton:hover {
-  transition:0.1s;
   background-color: rgb(0,0,0,0.4);
 }
 /* End Modals */
