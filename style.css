@@ -8,7 +8,8 @@
   float:left;
 }
 .for-ish-sheet {
-  background-color:#1cf3cc;
+   background: rgb(5,247,133);
+background: radial-gradient(circle, rgba(5,247,133,1) 1%, rgba(0,212,255,1) 100%); 
   float:right;
   width:50%;
 }
