@@ -33,7 +33,7 @@ closebutton:hover {
 }
 /* End Modals */
 /* buttons */
-button {
+button.btn.btn-dark {
  padding:1px;
   color:white;
   background-color:black;
@@ -50,11 +50,11 @@ button {
   cursor:pointer;
   font-size:24px;
 }
-button:hover {
+button.btn.btn-dark:hover {
   background-color:gray;
   color:black;
 }
-button:active {
+button.btn.btn-dark:active {
   transition:0.1s;
   border-top:0px;
 }
@@ -151,6 +151,30 @@ button.btn.btn-primary:hover {
   background-color:#3465a4;
 }
 button.btn.btn-primary:active {
+  transition:0.5s;
+  border-top:0px;
+}
+button.btn.btn-warning {
+  padding:1px;
+  color:white;
+  background-color:#fd6904;
+  border-radius:5px;
+  border-top:2px;
+  border-color:#f7ab55;
+  border-bottom:0px;
+  border-style:solid;
+  min-width:10%;
+  max-width:100%;
+  height:10%;
+  border-right:0px;
+  border-left:0px;
+  cursor:pointer;
+  font-size:24px;
+}
+button.btn.btn-warning:hover {
+  background-color:#ce5c00;
+}
+button.btn.btn-warning:active {
   transition:0.5s;
   border-top:0px;
 }
@@ -314,7 +338,7 @@ textarea,input,select:active {
   border-radius:5px;
 }
 body {
-   margin:0px;
+  margin:0px;
 }
 /* End fonts and text */
 /* Links */
